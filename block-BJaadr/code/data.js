@@ -10,7 +10,7 @@ const got = {
             "Lord of Winterfell - Warden of the North - Hand of the King - Married to Catelyn (Tully) Stark",
           image:
             "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-eddard-stark.jpg",
-          wikiLink: "http://gameofthrones.wikia.com/wiki/Eddard_Stark"
+          wikiLink: "http://gameofthrones.wikia.com/wiki/Eddard_Stark",
         },
         {
           name: "Benjen Stark",
@@ -18,21 +18,21 @@ const got = {
             "Brother of Eddard Stark - First ranger of the Night's Watch",
           image:
             "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-benjen-stark.jpg",
-          wikiLink: "http://gameofthrones.wikia.com/wiki/Benjen_Stark"
+          wikiLink: "http://gameofthrones.wikia.com/wiki/Benjen_Stark",
         },
         {
           name: "Robb Stark",
           description: "Son of Eddard and Catelyn Stark - Direwolf: Grey Wind",
           image:
             "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-robb-stark.jpg",
-          wikiLink: "http://gameofthrones.wikia.com/wiki/Robb_Stark"
+          wikiLink: "http://gameofthrones.wikia.com/wiki/Robb_Stark",
         },
         {
           name: "Sansa Stark",
           description: "Daughter of Eddard and Catelyn Stark - Direwolf: Lady",
           image:
             "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-sansa-stark.jpg",
-          wikiLink: "http://gameofthrones.wikia.com/wiki/Sansa_Stark"
+          wikiLink: "http://gameofthrones.wikia.com/wiki/Sansa_Stark",
         },
         {
           name: "Arya Stark",
@@ -40,21 +40,21 @@ const got = {
             "Daughter of Eddard and Catelyn Stark - Direwolf: Nymeria",
           image:
             "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-arya-stark.jpg",
-          wikiLink: "http://gameofthrones.wikia.com/wiki/Arya_Stark"
+          wikiLink: "http://gameofthrones.wikia.com/wiki/Arya_Stark",
         },
         {
           name: "Brandon Stark",
           description: "Son of Eddard and Catelyn Stark - Direwolf: Summer",
           image:
             "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-brandon-stark.jpg",
-          wikiLink: "http://gameofthrones.wikia.com/wiki/Brandon_Stark"
+          wikiLink: "http://gameofthrones.wikia.com/wiki/Brandon_Stark",
         },
         {
           name: "Rickon Stark Upper",
           description: "Son of Eddard and Catelyn Stark - Direwolf: Shaggydog",
           image:
             "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-rickon-stark.jpg",
-          wikiLink: "http://gameofthrones.wikia.com/wiki/Rickon_Stark"
+          wikiLink: "http://gameofthrones.wikia.com/wiki/Rickon_Stark",
         },
         {
           name: "Jon Snow",
@@ -62,9 +62,9 @@ const got = {
             "Bastard son of Eddard Stark - Steweard in the Night's Watch - Direwolf: Ghost",
           image:
             "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-jon-snow.jpg",
-          wikiLink: "http://gameofthrones.wikia.com/wiki/Jon_Snow"
-        }
-      ]
+          wikiLink: "http://gameofthrones.wikia.com/wiki/Jon_Snow",
+        },
+      ],
     },
     {
       name: "Lannisters",
@@ -75,14 +75,14 @@ const got = {
           description: "Lord of Casterly Rock - Warden of the West",
           image:
             "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-tywin-lannister.jpg",
-          wikiLink: "http://gameofthrones.wikia.com/wiki/Tywin_Lannister"
+          wikiLink: "http://gameofthrones.wikia.com/wiki/Tywin_Lannister",
         },
         {
           name: "Tyrion Lannister",
           description: "Son of Tywin Lannister - The Imp",
           image:
             "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-tyrion-lannister.jpg",
-          wikiLink: "http://gameofthrones.wikia.com/wiki/Tyrion_Lannister"
+          wikiLink: "http://gameofthrones.wikia.com/wiki/Tyrion_Lannister",
         },
         {
           name: "Jaime Lannister",
@@ -90,7 +90,7 @@ const got = {
             "The Kingslayer - Knight of the Kingsgaurd - Son of Tywin Lannister",
           image:
             "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-jaime-lannister.jpg",
-          wikiLink: "http://gameofthrones.wikia.com/wiki/Jaime_Lannister"
+          wikiLink: "http://gameofthrones.wikia.com/wiki/Jaime_Lannister",
         },
         {
           name: "Cersei Baratheon",
@@ -98,9 +98,9 @@ const got = {
             "Married to King Robert Baratheon - Daughter of Tywin Lannister",
           image:
             "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-cersei-lannister.jpg",
-          wikiLink: "http://gameofthrones.wikia.com/wiki/Cersei_Lannister"
-        }
-      ]
+          wikiLink: "http://gameofthrones.wikia.com/wiki/Cersei_Lannister",
+        },
+      ],
     },
     {
       name: "Baratheons",
@@ -111,7 +111,7 @@ const got = {
           description: "The first of his name - Lord of the Seven Kingdoms",
           image:
             "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-robert-baratheon.jpg",
-          wikiLink: "http://gameofthrones.wikia.com/wiki/Robert_Baratheon"
+          wikiLink: "http://gameofthrones.wikia.com/wiki/Robert_Baratheon",
         },
         {
           name: "Stannis Baratheon",
@@ -119,7 +119,7 @@ const got = {
             "Lord of Dragonstone - Master of Ships - Brother of Robert Baratheon",
           image:
             "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-stannis-baratheon.jpg",
-          wikiLink: "http://gameofthrones.wikia.com/wiki/Stannis_Baratheon"
+          wikiLink: "http://gameofthrones.wikia.com/wiki/Stannis_Baratheon",
         },
         {
           name: "Renly Baratheon",
@@ -127,7 +127,7 @@ const got = {
             "Lord of Storm's End - Master of Laws - Brother of Robert Baratheon",
           image:
             "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-renly-baratheon.jpg",
-          wikiLink: "http://gameofthrones.wikia.com/wiki/Renly_Baratheon"
+          wikiLink: "http://gameofthrones.wikia.com/wiki/Renly_Baratheon",
         },
         {
           name: "Joffrey Baratheon",
@@ -135,23 +135,23 @@ const got = {
             "Heir to the Iron Throne - Son of Robert and Cersei Baratheon",
           image:
             "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-joffrey-baratheon.jpg",
-          wikiLink: "http://gameofthrones.wikia.com/wiki/Joffrey_Baratheon"
+          wikiLink: "http://gameofthrones.wikia.com/wiki/Joffrey_Baratheon",
         },
         {
           name: "Tommen Baratheon",
           description: "Son of Robert and Cersei Baratheon",
           image:
             "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-tommen-baratheon.jpg",
-          wikiLink: "http://gameofthrones.wikia.com/wiki/Tommen_Baratheon"
+          wikiLink: "http://gameofthrones.wikia.com/wiki/Tommen_Baratheon",
         },
         {
           name: "Myrcella Baratheon",
           description: "Daughter of Robert and Cersei Baratheon",
           image:
             "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-myrcella-baratheon.jpg",
-          wikiLink: "http://gameofthrones.wikia.com/wiki/Myrcella_Baratheon"
-        }
-      ]
+          wikiLink: "http://gameofthrones.wikia.com/wiki/Myrcella_Baratheon",
+        },
+      ],
     },
     {
       name: "Targaryens",
@@ -163,7 +163,7 @@ const got = {
             'Stormborn - Khaleesi of the Dothraki - The Unburnt - Mother of Dragons - Daughter of Aerys II Targaryen "The Mad King"',
           image:
             "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-daenerys-targaryen.jpg",
-          wikiLink: "http://gameofthrones.wikia.com/wiki/Daenerys_Targaryen"
+          wikiLink: "http://gameofthrones.wikia.com/wiki/Daenerys_Targaryen",
         },
         {
           name: "Viserys Targaryen",
@@ -171,9 +171,9 @@ const got = {
             'The Beggar King - Son of Aerys II Targaryen "The Mad King"',
           image:
             "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-viserys-targaryen.jpg",
-          wikiLink: "http://gameofthrones.wikia.com/wiki/Viserys_Targaryen"
-        }
-      ]
+          wikiLink: "http://gameofthrones.wikia.com/wiki/Viserys_Targaryen",
+        },
+      ],
     },
     {
       name: "Greyjoys",
@@ -184,7 +184,7 @@ const got = {
           description: "Lord Reaper of Pyke - Head of House Greyjoy",
           image:
             "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-balon-greyjoy.jpg",
-          wikiLink: "http://gameofthrones.wikia.com/wiki/Balon_Greyjoy"
+          wikiLink: "http://gameofthrones.wikia.com/wiki/Balon_Greyjoy",
         },
         {
           name: "Theon Greyjoy",
@@ -192,16 +192,16 @@ const got = {
             "Ward of the Starks - Heir to the Iron Islands - Son of Balon Greyjoy",
           image:
             "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-theon-greyjoy.jpg",
-          wikiLink: "http://gameofthrones.wikia.com/wiki/Theon_Greyjoy"
+          wikiLink: "http://gameofthrones.wikia.com/wiki/Theon_Greyjoy",
         },
         {
           name: "Yara Greyjoy",
           description: "Ironborn - Son of Balon Greyjoy",
           image:
             "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-yara-greyjoy.jpg",
-          wikiLink: "http://gameofthrones.wikia.com/wiki/Yara_Greyjoy"
-        }
-      ]
+          wikiLink: "http://gameofthrones.wikia.com/wiki/Yara_Greyjoy",
+        },
+      ],
     },
     {
       name: "Tyrells",
@@ -213,7 +213,7 @@ const got = {
             "Wife of Renly Baratheon - Sister of Loras Tyrell - Granddaughter of Olenna Tyrell",
           image:
             "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-margaery-tyrell.jpg",
-          wikiLink: "http://gameofthrones.wikia.com/wiki/Margaery_Tyrell"
+          wikiLink: "http://gameofthrones.wikia.com/wiki/Margaery_Tyrell",
         },
         {
           name: "Loras Tyrell",
@@ -221,9 +221,9 @@ const got = {
             "Heir to Highgarden - Commander of the Kings Gaurd - Brother of Margaery Baratheon",
           image:
             "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-loras-tyrell.jpg",
-          wikiLink: "http://gameofthrones.wikia.com/wiki/Loras_Tyrell"
-        }
-      ]
+          wikiLink: "http://gameofthrones.wikia.com/wiki/Loras_Tyrell",
+        },
+      ],
     },
     {
       name: "Tullys",
@@ -234,21 +234,21 @@ const got = {
           description: "Married to Eddard Stark - Daughter of Hoster Tully",
           image:
             "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-catelyn-tully.jpg",
-          wikiLink: "http://gameofthrones.wikia.com/wiki/Catelyn_Tully"
+          wikiLink: "http://gameofthrones.wikia.com/wiki/Catelyn_Tully",
         },
         {
           name: "Lysa Arryn",
           description: "Widow of Jon Arryn - Daughter of Hoster Tully",
           image:
             "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-lysa-tully.jpg",
-          wikiLink: "http://gameofthrones.wikia.com/wiki/Lysa_Tully"
+          wikiLink: "http://gameofthrones.wikia.com/wiki/Lysa_Tully",
         },
         {
           name: "Edmure Tully",
           description: "Heir to Riverrun - Son of Hoster Tully",
           image:
             "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-edmure-tully.jpg",
-          wikiLink: "http://gameofthrones.wikia.com/wiki/Edmure_Tully"
+          wikiLink: "http://gameofthrones.wikia.com/wiki/Edmure_Tully",
         },
         {
           name: "Brynden Tully",
@@ -256,9 +256,9 @@ const got = {
             "Lord of Riverrun - Head of House Tully - Brother of Hoster Tully",
           image:
             "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-brynden-tully.jpg",
-          wikiLink: "http://gameofthrones.wikia.com/wiki/Brynden_Tully"
-        }
-      ]
+          wikiLink: "http://gameofthrones.wikia.com/wiki/Brynden_Tully",
+        },
+      ],
     },
     {
       name: "Redwyne",
@@ -269,9 +269,9 @@ const got = {
           description: "Matriarch of House Tyrell - Queen of Thorns",
           image:
             "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-olenna-tyrell.jpg",
-          wikiLink: "http://gameofthrones.wikia.com/wiki/Olenna_Tyrell"
-        }
-      ]
+          wikiLink: "http://gameofthrones.wikia.com/wiki/Olenna_Tyrell",
+        },
+      ],
     },
     {
       name: "Freys",
@@ -282,9 +282,9 @@ const got = {
           description: "Lord of the Crossing - Head of House Frey",
           image:
             "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-walder-frey.jpg",
-          wikiLink: "http://gameofthrones.wikia.com/wiki/Walder_Frey"
-        }
-      ]
+          wikiLink: "http://gameofthrones.wikia.com/wiki/Walder_Frey",
+        },
+      ],
     },
     {
       name: "Arryns",
@@ -296,9 +296,9 @@ const got = {
             "Lord of the Eyrie - Head of House Arryn - Warden of the East - Defender of the Vale",
           image:
             "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-jon-arryn.jpg",
-          wikiLink: "http://gameofthrones.wikia.com/wiki/Jon_Arryn"
-        }
-      ]
+          wikiLink: "http://gameofthrones.wikia.com/wiki/Jon_Arryn",
+        },
+      ],
     },
     {
       name: "Dothrakis",
@@ -310,9 +310,9 @@ const got = {
             "Leader of the Dothraki people - Dothraki Warlord - Married to Daenerys Targaryen",
           image:
             "http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-khal-drogo.jpg",
-          wikiLink: "http://gameofthrones.wikia.com/wiki/Drogo"
-        }
-      ]
-    }
-  ]
+          wikiLink: "http://gameofthrones.wikia.com/wiki/Drogo",
+        },
+      ],
+    },
+  ],
 };
