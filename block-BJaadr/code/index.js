@@ -1,42 +1,112 @@
 // NOTE: You can only use the (reduce) array method to solve this exercise:
 
 function countAllPeople() {
-  let arr = [];
-  for (i = 0; i < got.houses.length; i++) {
-    arr.push(got.houses[i].people.length);
-  }
-  function totalPeople(current, accum) {
-    return current + accum;
-  }
-  return arr.reduce(totalPeople, 0);
+  return got.houses.reduce((acc, cv, i) => {
+    return acc + got.houses[i].people.length;
+  }, 0);
 }
 
 function peopleByHouses() {
-  // your code goes here
+  let people = got.houses.reduce(
+    (acc, cv, i) => ({
+      ...acc,
+      [got.houses[i].name]: got.houses[i].people.length,
+    }),
+    {}
+  );
+  return people;
 }
 
 function everyone() {
-  // your code goes here
+  let allPeople = got.houses.reduce((acc, cv, i) => {
+    acc.push(
+      got.houses[i].people.map((item) => {
+        return item.name;
+      })
+    );
+    return acc.flat(Infinity);
+  }, []);
+
+  return allPeople;
 }
 
 function nameWithS() {
-  // your code goes here
+  let allPeopleWithS = got.houses.reduce((acc, cv, i) => {
+    acc.push(
+      got.houses[i].people
+        .filter((item) => {
+          if (item.name.toLowerCase().includes("s") == true) {
+            return item.name;
+          }
+        })
+        .map((item) => item.name)
+    );
+    return acc.flat(Infinity);
+  }, []);
+  return allPeopleWithS;
 }
 
 function nameWithA() {
-  // your code goes here
+  let allPeopleWithA = got.houses.reduce((acc, cv, i) => {
+    acc.push(
+      got.houses[i].people
+        .filter((item) => {
+          if (item.name.toLowerCase().includes("a") == true) {
+            return item.name;
+          }
+        })
+        .map((item) => item.name)
+    );
+    return acc.flat(Infinity);
+  }, []);
+  return allPeopleWithA;
 }
 
 function surnameWithS() {
-  // your code goes here
+  let surNameWithS = got.houses.reduce((acc, cv, i) => {
+    acc.push(
+      got.houses[i].people
+        .filter((item) => {
+          return item.name
+            .split(" ")
+            [item.name.split(" ").length - 1].toLowerCase()
+            .startsWith("s");
+        })
+        .map((item) => item.name)
+    );
+    return acc.flat(Infinity);
+  }, []);
+  return surNameWithS;
 }
 
 function surnameWithA() {
-  // your code goes here
+  let surNameWithA = got.houses.reduce((acc, cv, i) => {
+    acc.push(
+      got.houses[i].people
+        .filter((item) => {
+          return item.name
+            .split(" ")
+            [item.name.split(" ").length - 1].toLowerCase()
+            .startsWith("a");
+        })
+        .map((item) => item.name)
+    );
+    return acc.flat(Infinity);
+  }, []);
+  return surNameWithA;
 }
 
 function peopleNameOfAllHouses() {
-  // your code goes here
+  let people = got.houses.reduce(
+    (acc, cv, i) => ({
+      ...acc,
+      [got.houses[i].name]: got.houses[i].people.map((item) => {
+        return item.name;
+      }),
+    }),
+    {}
+  );
+  return people;
 }
 
 // Testing your result after writing your function
