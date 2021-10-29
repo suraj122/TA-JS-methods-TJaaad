@@ -80,6 +80,13 @@ Output:
 {banana: 2, cherry: 3, orange: 3, apple: 2, fig: 1}
 */
 
+let fruitObj = fruitBasket.reduce((acc, cv) => {
+  if (acc[cv]) {
+    acc[cv] = acc[cv] + 1;
+  } else acc[cv] = 1;
+  return acc;
+}, {});
+
 /* 
 
 Use the fruitBasket array to create an array of array. Each array will contain two values name of fruit and number of times
@@ -99,6 +106,13 @@ const data = [
 
 // Using reduce flat data array
 
+data
+  .reduce((acc, cv) => {
+    acc.push(cv);
+    return acc;
+  }, [])
+  .flat(Infinity);
+
 const dataTwo = [
   [1, 2, 3],
   [4, 5, 6],
@@ -107,7 +121,12 @@ const dataTwo = [
 ];
 
 // Using reduce flat dataTwo array
-
+dataTwo
+  .reduce((acc, cv) => {
+    acc.push(cv);
+    return acc;
+  }, [])
+  .flat(Infinity);
 /*
 
 Create these functions which accepts a number value and returns a number value:
@@ -163,6 +182,11 @@ EXAMPLE:
   ...
 */
 
+let final = pipeline.reduce((acc, cv) => {
+  acc = cv(acc);
+  return acc;
+}, 3);
+
 let pipeline2 = [
   increment,
   half,
@@ -178,3 +202,7 @@ let pipeline2 = [
 ];
 
 // Find the output using pipeline2 the initial value if 8
+let final2 = pipeline2.reduce((acc, cv) => {
+  acc = cv(acc);
+  return acc;
+}, 8);
